@@ -103,7 +103,7 @@ body.page-template-page-fullsingle-me {
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url('../../images/hur_o.jpg');
+    url('../../images/nebel.webp');
 
   background-position: center center;
   background-size: cover;
@@ -252,4 +252,18 @@ body.page-template-page-fullsingle-me h1 {
   -webkit-transition: 0.1s;
   transition: 0.1s;
   opacity: 0.7;
+}
+
+h1{
+  color: rgb(109, 235, 19);
+  background-color: #000;
+  padding: 10px;
+}
+
+p{
+  color: #000;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
 }
