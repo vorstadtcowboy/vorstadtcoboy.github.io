@@ -1,0 +1,41 @@
+/*
+selektor {
+    eigenschaft: wert;
+}
+*/
+
+/* Das Sternchen selektiert alle Elemente*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: red;
+  background-color: yellow;
+  width: 600px;
+  padding: 10px;
+  border: 3px orange solid;
+}
+
+p {
+  width: 600px;
+  padding: 10px;
+  border: 3px black solid;
+}
+/*schwarz und nicht mehr unterstrichen*/
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+#wichtig {
+  background-color: pink;
+}
+
+.green {
+  background-color: lime;
+}
